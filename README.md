@@ -32,5 +32,4 @@ The site also works on any static host (Netlify, Vercel, Cloudflare Pages). Poin
 
 ## Images still to add
 
-- `assets/img/founder.jpg`: founder photo (Figma node `1:1294`). Uncomment the `<img>` in `about.html` once it's added.
 - About hero photo (Figma node `1:1191`): this slot currently uses the app screenshot.
