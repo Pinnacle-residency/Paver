@@ -15,6 +15,8 @@ Shared styles live in `assets/css/styles.css`, behaviour (mobile menu, FAQ accor
 
 Every "Join waitlist" button, along with the other sign-up and download buttons, opens the waitlist form: https://forms.gle/uasFHxJZCSpPC54bA
 
+The investor and partner "Get started now" button (Home and About) opens an email to Ogunmakinwatolu@gmail.com.
+
 ## Run locally
 
 ```sh
