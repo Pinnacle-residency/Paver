@@ -28,9 +28,10 @@ python3 -m http.server 8080
 
 `.github/workflows/pages.yml` publishes the site to GitHub Pages on every push to `main`. Enable it once under **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 
+The site is served at https://trypaver.online. The domain is set under **Settings → Pages → Custom domain**, and its DNS points at GitHub Pages. `CNAME` records the domain in the repository.
+
 The site also works on any static host (Netlify, Vercel, Cloudflare Pages). Point it at the repository root; there is no build command.
 
 ## Images still to add
 
-- `assets/img/founder.jpg`: founder photo (Figma node `1:1294`). Uncomment the `<img>` in `about.html` once it's added.
 - About hero photo (Figma node `1:1191`): this slot currently uses the app screenshot.
